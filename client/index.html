@@ -8,15 +8,17 @@
 </head>
 <body>
     <h1>Live chat!!!!</h1>
-    <form action="/test-form">
+    <form action="/test-form" id="send-form">
         <label for="username">Username:</label>
         <input id="username" type="text" placeholder="Username" name="username">
+        
         <label for="message">Message:</label>
         <input id="message" type="text" placeholder="Message" name="message">
         <!-- input:submit -->
         <input type="submit" value="Send">
         <!-- <button type="submit">Send</button> -->
     </form>
+    <script src="script.js"></script>
     <script type="text/javascript">
         // <![CDATA[  <-- For SVG support
         if ('WebSocket' in window) {
